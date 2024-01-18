@@ -1,0 +1,43 @@
+.results-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    margin: 2px;
+}
+
+.logo {
+    max-width: 20%; /* Adjust the size as needed */
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 350%; /* Adjust the size as needed */
+    color: white;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.results {
+    font-size: 300%;
+    text-align: center;
+}
+
+.results-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.results-container button:hover {
+    background-color: #45a049;
+}

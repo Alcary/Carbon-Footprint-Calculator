@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+header img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header button {
+    padding: 10px 20px;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    background-color: #4CAF50; /* Green color, adjust it as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #45a049; /* Darker green on hover, adjust it as needed */
+}
+
+/* Add this style for the Credentials button */
+header button.credentials {
+    background-color: #4CAF50; /* Same color as the Calculate button */
+}

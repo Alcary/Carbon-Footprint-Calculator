@@ -1,0 +1,47 @@
+.credentials-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .erasmus-logo {
+    width: 35%;
+  }
+  
+  .text-container {
+    text-align: center;
+    margin-top: 8%;
+    width: 70%;
+  }
+  
+  h1, p {
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
